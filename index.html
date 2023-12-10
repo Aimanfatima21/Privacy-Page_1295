@@ -1,12 +1,10 @@
-# Privacy-Page_1295
-I describes this using HTMl , CSS and Javascriprt 
 <!DOCTYPE html>
 <html lang="en">
 
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Privacy Policy</title>
+    <title>Privacy Policy-Aiman fatima-1295</title>
     <!-- Include the Tailwind CSS CDN -->
     <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
 </head>
@@ -74,24 +72,25 @@ I describes this using HTMl , CSS and Javascriprt
                     <textarea id="message" name="message" rows="4" class="mt-1 p-2 w-full border rounded-md"></textarea>
                 </div>
 
-                <button type="button" onclick="submitForm()" class="bg-blue-500 text-white px-4 py-2 rounded-md">Submit</button>
+                <button type="button" onclick="submitForm()"
+                    class="bg-blue-500 text-white px-4 py-2 rounded-md">Submit</button>
             </form>
         </section>
     </div>
 
     <script>
-    function submitForm() {
-    var name = document.getElementById('name').value;
-    var email = document.getElementById('email').value;
-    var message = document.getElementById('message').value;
+        function submitForm() {
+            var name = document.getElementById('name').value;
+            var email = document.getElementById('email').value;
+            var message = document.getElementById('message').value;
 
-    if (name === '' || email === '' || message === '') {
-        alert('All fields are required');
-    } else {
-        // You can add additional logic here, such as sending the form data to a server.
-        alert('Form submitted successfully');
-    }
-}
+            if (name === '' || email === '' || message === '') {
+                alert('All fields are required');
+            } else {
+                // You can add additional logic here, such as sending the form data to a server.
+                alert('Form submitted successfully');
+            }
+        }
 
     </script>
 </body>
